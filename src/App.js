@@ -13,19 +13,13 @@ import './App.css'
        {name:'johnoo', age:'25', body:'Yti you are in the my world'},
        {name:'Hero', age:'29', body:'m ni manta'},
      ],
-      username: 'No name',
+      username: 'No name',  
    };
 
       onHandelData=(newName)=>{
                 alert('click ho gya')
                 this.setState({
-
-          Card:[
-            {name:'newName', age:'20', body:'You are in the my world'},
-            {name:'john Doe', age:'30', body:'Go gone Back'},
-            {name:'johnru', age:'25', body:'Yti you are in the my world'},
-            {name:'Hero', age:'29', body:'m ni manta'},
-          ]
+              
 
         });
       }
